@@ -262,10 +262,7 @@ textarea {
 }
 body {
   margin: 0 auto;
-  font-family: Helvetica, sans-serif;
-}
-.corps {
-  background-color: #f6f4f5;
+  font-family: 'Open Sans', sans-serif;
 }
 .flex-container {
   position: -webkit-sticky;
@@ -276,33 +273,46 @@ body {
   background-color: #01bea6;
   margin: 0;
 }
-h1 {
+.h1-titre-slogan {
   margin: 0;
  }
-h4 {
+.h4-titre-slogan {
   color: black;
 }
-.logo1 {
+.logo-marque-green {
   width: 50%;
 }
-.titre {
+.bouton-nav {
+    margin-top: 40%;
+    font-weight: bold;
+    border-radius: 8px;
+    width: 220%;
+    height: 50%;
+    border: none;
+}
+.head-prez-search {
+  margin: 0;
+  background-color: #01bea6;
+  height: 700px;
+}
+.titre-slogan {
   padding-top: 180px;
   margin: 0;
   text-align: center;
   color: white;
 }
-.champ {
+.search-bar {
   padding-top: 50px;
   text-align: center;
 }
-.input {
+.input-search-bar {
   border-radius: 8px;
   width: 20%;
   height: 50px;
   border: none;
   margin: 0;
 }
-.b_search {
+.bouton-search {
   border-radius: 8px;
   border: none;
   width: 10%;
@@ -311,43 +321,55 @@ h4 {
   background-color: black;
   color: white;
 }
-.nav-content {
-  flex-wrap: wrap;
-}
-.first_p {
+.hero-container {
   display: flex;
-  /*justify-content: center;*/
-  padding-left: 320px;
+  justify-content: space-around;
 }
-.img_car {
-  width: 50%;
+.hero-left {
+  margin-top: -6%;
 }
-.para1 {
-  margin-left: 300px;
-  margin-top: 130px;
-  font-size: 30px;
-  background-color: white;
-  border-radius: 12px;
-  width: 35%;
-  height: 200px;
-  text-align:center;
+.hero-right {
+  margin-top: 0.5%;
 }
-.bouton {
-  margin-top: 45%;
-  border-radius: 8px;
-  width: 220%;
-  height: 40%;
-  border: none;
+.main-bloc {
+  background-color: #f6f4f5;
 }
-.head {
-  margin: 0;
-  background-color: #01bea6;
-  height: 700px;
-}
-.who {
+.title-part {
   padding-top: 100px;
   display: flex;
   justify-content: center;
+}
+.little-dot {
+  width: 44px!important;
+}
+.who-we-r {
+  display: flex;
+  padding-left: 320px;
+}
+.hero-car-div {
+  width: 600px;
+}
+.hero_car {
+  width: 50%;
+  padding-top: 10%;
+  padding-left: 40%;
+  margin: 0;
+}
+.h2-who-we-r {
+  color: #01bea6;
+  font-size: 1.2em;
+}
+.who-we-r-p {
+  font-size: 1em!important;
+  font-weight: lighter!important;;
+  padding-left: 10px;
+  margin-top: 60px;
+  font-size: 30px;
+  background-color: white;
+  border-radius: 12px;
+  width: 25%;
+  height: 200px;
+  text-align: left;
 }
 .check {
   display: flex;
