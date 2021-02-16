@@ -12,7 +12,7 @@ workflows:
           create-repo: true
           dockerfile: Dockerfile
           no-output-timeout: 20m
-          path: Dockerfile
+          path: .
           profile-name: kaddour75
           region: AWS_REGION
           repo: e-driving
